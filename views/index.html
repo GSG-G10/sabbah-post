@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+   <header>
+       <h1 class="logo"> Post App </h1>
+   </header> 
+   <section class="form-cont">
+   <form action="/post" method="post">
+    <div>
+<label for="name">
+    Name
+    <input type="text" id="name" placeholder="Name" required>
+</label></div>
+<div>
+<label for="post-text">
+    Post
+    <input type="text" id="post-text" placeholder="Type your post here ..." required>
+</label></div>
+<div>
+<label for="img-url">
+    Image
+    <input type="url" id="img-url" placeholder="Image URL">
+</label></div>
+<input type="submit" id="submit">
+</form>
+</section>
+<sectin class="posts-present">
+    <div class="post-container">
+        <h2>Name</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet a earum commodi consectetur! Odio aspernatur sapiente eius vitae amet et quas aliquam mollitia laboriosam, laudantium minus eaque fugiat commodi accusamus.</p>
+        <div class="img-cont">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png" alt="post-image">
+
+        </div>
+    </div>
+</sectin>
+</body>
+</html>
