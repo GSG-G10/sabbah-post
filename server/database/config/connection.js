@@ -11,5 +11,5 @@ const options = {
   connectionString: DB_URL,
   ssl: false,
 };
-
-module.exports = new Pool(options);
+const buildDB = new Pool(options);
+module.exports = {buildDB}
