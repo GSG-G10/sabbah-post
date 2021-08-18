@@ -1,6 +1,6 @@
 const express = require('express');
 const { join } = require('path');
-const router = require('./app')
+const router = require('./app');
 
 const app = express();
 app.set('port', process.env.PORT || 5000);
